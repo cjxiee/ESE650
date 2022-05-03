@@ -2,8 +2,6 @@
 
 This repo contains the code associated to our paper Data-Driven MPC for Quadrotors. 
 
-[![Data-Driven MPC for Quadrotors](http://rpg.ifi.uzh.ch/img/papers/RAL21_Torrente_play_button.png)](https://youtu.be/FHvDghUUQtc)
-
 ### Citing
 
 If you use this code in an academic context, please cite the following publication:
@@ -64,13 +62,6 @@ source gp_mpc_venv/bin/activate
 **Installation of `acados` and its Python interface** : 
 - Build and install the Acados C library. Please follow their [installation guide](https://docs.acados.org/installation/index.html). 
 - Install the Python interface. Steps also provided in the [Python interface wiki](https://docs.acados.org/interfaces/index.html#installation).
-
-### Additional Requirements
-
-The code that runs on the `Gazebo Simulation` environment builds on `rpg_quadrotor_control`. You may skip this step if intending to use only the `Simplified Simulation`. <br/>
-Otherwise, create a catkin workspace following these [installation instructions](https://github.com/uzh-rpg/rpg_quadrotor_control/wiki/Installation-Guide). <br/>
-After these steps you should have all the ROS packages required to run the RPG Quadrotor simulation also in the `Gazebo Simulation`.
-
 
 ### Initial setup
 
