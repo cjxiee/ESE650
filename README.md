@@ -1,7 +1,7 @@
 ### PERFORMANCE OF MODEL PREDICTIVE CONTROL ON QUAD-ROTOR
 
 This repo contains the code associated to paper Data-Driven MPC for Quadrotors. 
-And the installation is based on the repository from https://github.com/uzh-rpg/data_driven_mpc.
+The installation is based on the repository from https://github.com/uzh-rpg/data_driven_mpc.
 
 
 
