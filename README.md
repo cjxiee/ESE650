@@ -207,7 +207,3 @@ For example:
 ```
 python src/experiments/comparative_experiment.py --model_version 42b8650b 42b8650b --model_name simple_sim_gp simple_sim_rdrv --model_type gp rdrv --fast
 ```
-
-<p align="center">
-  <img src="./img/mse_example.png" alt="mse-example" width="1100" height="250">
-</p>
