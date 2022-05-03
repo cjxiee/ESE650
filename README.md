@@ -1,10 +1,8 @@
 ### PERFORMANCE OF MODEL PREDICTIVE CONTROL ON QUAD-ROTOR
 
-This repo contains the code associated to our paper Data-Driven MPC for Quadrotors. 
+This repo contains the code associated to paper Data-Driven MPC for Quadrotors. 
 
 ### Citing
-
-If you use this code in an academic context, please cite the following publication:
 
 Paper: [Data-Driven MPC for Quadrotors](http://rpg.ifi.uzh.ch/docs/RAL21_Torrente.pdf)
 
@@ -90,7 +88,6 @@ source gp_mpc_venv/bin/activate
    ```
 
 ## Running the package in Simulation
-We provide instructions of how to use this package in two different simulators. In the paper we call them `Simplified Simulation` and `Gazebo Simulation`. While the `Simplified Simulation` is a lightweight Python simulator, the `Gazebo Simulation` builds on the well-known [RotorS extension](https://github.com/ethz-asl/rotors_simulator).
 
 First make sure to add to your Python path the main directory of this package. Also activate the virtual environment if created.
 ```
@@ -153,7 +150,7 @@ python src/experiments/trajectory_test.py --help
 
 ### Model Fitting Tutorial
 
-Next, we collect a dataset for fitting GP and RDRv models in the `Simplified Simulator`. This procedure will be very similar for the `Gazebo Simulator` (explained later).
+Next, we collect a dataset for fitting GP and RDRv models in the `Simplified Simulator`.
 
 #### Data collection
 
