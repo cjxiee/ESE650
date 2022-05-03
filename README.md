@@ -171,3 +171,11 @@ For example:
 ```
 python src/experiments/comparative_experiment.py --model_version 42b8650b 42b8650b --model_name simple_sim_gp simple_sim_rdrv --model_type gp rdrv --fast
 ```
+
+
+# Contribution
+All teammembers work on setting up the simulation environment and implementing GP-MPC model together. We have spent some time on integerating different model from different sources in the same environment. All members contribute to brainstorming possible new models to improve tracking error.
+
+Haitao Zhu: Search for the relevant open resourse MPC model and Complete the introduction, background, related work and approach section of report. 
+Zhengjie Xu: Contribute to the develop the evalution matrice and test cases on different model and Complete the experimental results section
+Shijie Xie: Go through the relevant paperworks and Complete the Discussion scetion
